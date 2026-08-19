@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/detran_sp_debitos-mcp",
+  "title": "DETRAN SP: Débitos e Restrições",
+  "description": "DETRAN SP: Debts e Restrições, official-source lookup. Platform-hosted, pay per query with prepaid c",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/detran_sp_debitos-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_detran_sp_debitos"
+    }
+  ]
+}
